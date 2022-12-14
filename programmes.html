@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>www.panlearningcenter.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-grey w3-text-blue w3-card" id="myNavbar">
+    <img src="panlogo.png">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="home.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="work.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>SERVICES</a>
+      <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+   <!-- programmes Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center w3-xxxlarge w3-text-blue"><u>Academic Programme</u></h3>
+    <div class="w3-quarter">
+    <img src="cot.jpg">
+    </div>
+    <div class="w3-container">
+    <h3 class="w3-xxlarge w3-text-blue">Automotive Technology Certificate courses are listed below</h3>
+    <ul>
+  <li>  National Vocational Certificate (NVC) in Automotive Mechatronics Technology</li>
+  <li>  National Vocational Certificate (NVC) in Motor Vehicle Mechanics</li>
+  <li>  City and Guilds Certificate in Light Vehicle Maintenance and Repair (Level 1, 2, and 3)</li>
+  <li>  City and Guilds Certificate in Motor Vehicle Engineering (Level 1-5)</li>
+  <li>  National Technical Certificate (Modular) in Motor Vehicle Mechanics</li>
+    </ul>
+  </div>
+    <div class="w3-container">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-xxlarge w3-text-blue">Business Administrations & Management Department</p>
+        <img src="cot.jpg" width="50%">
+        <h3 class="w3-text-light-blue">Overview</h3>
+        <p>College of Business and Management Studies: This faculty deals with Business And
+          Management programs. With the current explosion of entrepreneurship, PAN Learning Center ensures that students are exposed to real life
+          scenarios that will make them acquire skills and experience in becoming self reliant amidst difficult economy challenges.
+          Experienced instructors are professionals in ensuring that the best and quality practices are dished out to students. Some of the business programs are: </p> 
+        </p>
+        <ul>
+          <li>Administrative Management</li>
+          <li>Finance and Accounting</li>
+          <li>Human Resource</li>
+          <li>Sales and Marketing Management</li>
+        </ul>
+      </div>
+      <div class="w3-container">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-xxlarge w3-text-blue">College Of Technology (COT)</p>
+        <img src="cot.jpg" width="50%">
+        <h3 class="w3-text-light-blue">Overview</h3>
+        <p>College of Technology is a faculty in PAN Learning Center that deals with Engineering courses. The faculty has four Engineering departments: </p>
+        <ul>
+            <li>Automotive Engineering Technology</li>
+            <li>Metal works Engineering Technology</li>
+            <li>Computer Hardware Engineering Technology</li>
+            <li>Computer Software Engineering</li>
+        </ul>
+        <p>College of Technology is a faculty in PAN Learning Center that deals with Engineering courses. The faculty has four Engineering departments which are shown below. </p>
+      <p>The four departments offer City and Guilds Engineering Qualification courses,National Diploma courses and other certificate courses. These courses are majorly skilled related programmes tailored students' choice of programmes in relations to the professional awarding body.</p>
+      <form id="form">
+        <h3 class="w3-text-light-blue">Search Courses</h3>
+        <input type="search" id="query" name="q" placeholder="search..."><br><br>
+        <button class=" w3-text-blue w3-white">search courses</button>
+        </form>
+        <h3 class="w3-text-blue w3-xxlarge"><em>Nothing Found</em></h3>
+        <p class="w3-text-grey">It seems we can't find what you're looking for,<br>
+        Perhaps searching can help.</p>
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="search..."><br><br>
+            <button class=" w3-text-blue w3-white">search</button>
+            </form>
+    </div><br><br>
+    <div>
+        <div class="w3-container ">
+            <div class="w3-col m6">
+              <p><a href="applicationform.html" class="w3-button w3-blue w3-text-white"><i class="fa fa-th"> </i>Click here to Apply</a></p>
+            </div>
+          </div>
+    </div>
+  </div>
+    </body>
+</html>

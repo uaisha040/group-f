@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>www.panlearningcenter.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-grey w3-text-blue w3-card" id="myNavbar">
+    <img src="panlogo.png">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="home.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="work.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>SERVICES</a>
+      <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-text-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center w3-text-blue w3-xxlarge">PAN Learning Center</h3>
+  <h1 class="w3-xxlarge w3-text-blue w3-center">History</h1>
+</div>
+<div class="w3-container">
+<p><su_tooltip style="blue" position="north"  size="4" title="PAN Learning Centre">PAN Learning Centre (PLC), is a full subsidiary of PAN (Peugeot) Nigeria Limited, the oldest car manufacturing and assembly plant in Nigeria.<br><su_dropcap size="4"><strong>P</strong></su_dropcap><strong>AN Learning Centre</strong><span style="color: #0e94d2;"></su_tooltip></span> was established in 1978 with 11 expatriates under&nbsp;<b>Organization for Rehabilitation through Training-ORT&nbsp;</b>based in London. The World ORT Union based in Geneva Switzerland signed recruitment and training agreement with PAN in 1978 to recruit and train Nigerian senior staff and high level technical manpower for eventual indigenization of company’s operations.The Centre has since October 1989 been fully Nationalised. PLC is now open to the Nigerian Automotive Industry and the general public for trainings in Automotive Technology and other Auto related trades.</p>
+<hr>
+<h3 class="w3-xxlarge w3-text-blue">Vision</h3>
+<p><em>To deliver excellent learning solutions and allied services for the utmost satisfaction of all</em></p>
+<hr>
+<h3 class="w3-xxlarge w3-text-blue">Mission</h3>
+<p><em>To deliver excellent learning solutions and allied services for the utmost satisfaction of all</em></p>
+<hr>
+<h3 class="w3-xxlarge w3-text-blue">Values</h3>
+<ul>
+<li><em>Team Spirit</em></li>
+<li><em>Professionalism</em></li>
+<li><em>Excellence</em></li>
+<li><em>Innovation</em></li>
+</ul>
+</div>
+<hr>
+<!-- Partners Section "Statistics" -->
+  <div class="w3-row-padding w3-text-grey" style="margin-top:64px">
+    <h3 class="w3-xxlarge w3-text-blue">Our Partners</h3>
+  </div>
+    <marquee>
+      <div class="w3-container w3-row w3-padding-64 w3-animate-zoom">
+  <div class="w3-quarter">
+    <img src="City-Guilds.png" width="40%">
+    </div>
+    <div class="w3-quarter">
+      <img src="cmd.png" width="40%">
+    </div>
+    <div class="w3-quarter">
+      <img src="FTAISA.png" width="40%">
+    </div>
+    <div class="w3-quarter">
+      <img src="itf_logo.png" width="40%">
+    </div>
+    <div class="w3-quarter">
+      <img src="Kaduna-State.png" width="40%">
+    </div>
+    <div class="w3-quarter">
+      <img src="logo1.5x.png" width="40%">
+    </div>
+    <div class="w3-quarter">
+      <img src="necalogo.png" width="40%">
+    </div>
+    </div>
+  </marquee>
+  </div>
+  <hr>
+<!-- Promo Section - "We know design" -->
+<div class="w3-container ">
+    <div class="w3-col m6">
+      <p><a href="programmes.html" class="w3-button w3-blue w3-text-white"><i class="fa fa-th"> </i>Click to View Our Academic Programs</a></p>
+    </div>
+  </div>
+</div><hr>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  </script>
+  </body>
+  
+  <!-- Mirrored from www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_startup by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Feb 2019 04:43:31 GMT -->
+  </html>
+  
+
+

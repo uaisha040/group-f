@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>www.panlearningcenter.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-grey w3-text-blue w3-card" id="myNavbar">
+    <img src="panlogo.png">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="home.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>SERVICES</a>
+      <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+  
+  <!-- Work Section -->
+<br><br><br><div class="w3-container">
+    <h3 class="w3-center w3-xxlarge w3-text-blue">Services</h3>
+    <div>
+      <div class="w3-container">
+        <p>PAN Learning Center is not just a training Center, we also render services to customer's by practicing the job. Interested individuals are rendered services to the utmost satisfaction of the customer, this is done professionally with standard quality of tools or equipment. PAN Learning Center does not only ensure the speed of execution, we also guarantee standards. The services rendered in PAN Learning Center are:</p>
+      </div>
+      <div class="w3-container">
+        <img src="spray.jpg" width="100%">
+      <h3 class="w3-text-blue">Spray Cabin</h3>
+      <p>Do you wish to sipray your vehicle but scared of whom to handle the work? The come to PAN Learning Center, our team of expertise are available to ensure that customer's vehicle are sprayed. We ensure that the right quality of paints are used and customer are satisfied with the job. We spray all kinds of vehicle within a limited time. This is guaranteed because we have one of the best spray cabins.</p>
+      <div class="w3-container">
+        <img src="drive.jpg" width="100%">
+      <h3 class="w3-text-blue">Depensive Driving</h3>
+      <p>We teach driving and gives driving licence</p>
+      </div>
+      <div class="w3-container">
+        <img src="repair.jpg" width="100%">
+      <h3 class="w3-text-blue">Vehicle Repairs</h3>
+      <p>We repair vehicle</p>
+      </div>
+      <div class="w3-container">
+        <img src="studies.jpg" width="100%">
+      <h3 class="w3-text-blue">Business Center</h3>
+      <p>We do business as we can.</p>
+      </div>
+      <div class="w3-container">
+        <img src="rentals.jpg" width="100%">
+      <h3 class="w3-text-blue">Facility Rentals</h3>
+      <p>We did rentals such as: hall</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+    
+    </body>
+    
+    <!-- Mirrored from www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_startup by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Feb 2019 04:43:31 GMT -->
+    </html>
+    
